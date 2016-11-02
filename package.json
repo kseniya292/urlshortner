@@ -1,0 +1,19 @@
+{
+  "name": "urlshortner",
+  "version": "1.0.0",
+  "description": "freecodecamp url shortner project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kseniya292/urlshortner.git"
+  },
+  "author": "Kseniya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kseniya292/urlshortner/issues"
+  },
+  "homepage": "https://github.com/kseniya292/urlshortner#readme"
+}
