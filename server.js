@@ -1,8 +1,7 @@
 var express = require('express');
 var mongodb = require('mongodb');
-app.set('port', (process.env.PORT || 5000));
-
 var app = express();
+app.set('port', (process.env.PORT || 5000));
 var MongoClient = mongodb.MongoClient;
 
 //(Focus on This Variable)
