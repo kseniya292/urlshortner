@@ -1,0 +1,13 @@
+doctype html
+html(lang='en')
+  head
+    title URL Shortner
+    link(rel="stylesheet")(href="css/main.css")
+  body
+    .container
+      .row
+        .col-xs-12
+          h1 URL Shortner App
+          input#url-field.form-control(type='text', placeholder='Paste a link...')
+          span.input-group-btn
+            button.btn.btn-shorten(type='button') SHORTEN
