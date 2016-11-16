@@ -16,7 +16,7 @@ function idShortner() {
 } //id shortner function 
 
 app.get('/', function (req, res) {
-  res.send('hello')
+  res.send('This is the URL Shortner Project')
 }); //route to serve up the homepage (index.html)
 
 app.get('/:parameter', function (req, res) {
